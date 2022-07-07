@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Best Breakfast</title>
+    <link rel="stylesheet" href="./Home.css" />
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="logo">
+        <b id="logo">e!</b>
+      </div>
+      <div class="login">
+        <!-- <div class="signin"></div> -->
+        <button class="signin">Login</button>
+        <button class="create">Create an account</button>
+        <!-- <div class="create"></div> -->
+        <!-- <button id="login">Login</button> -->
+        <!-- <button id="create">Create an account</button> -->
+      </div>
+    </div>
+    <div class="Heading">
+      <h2>Breakfast places in Mumbai</h2>
+    </div>
+    <div class="Breakfast">
+      <div class="Bf-left">
+        <div class="filtercontainer">
+          <h3>Filters</h3>
+          <div class="location">
+            <div>Select Location</div>
+            <select id="selectlocation">
+              <option>Select Location</option>
+              <option>Hyderabad</option>
+              <option>Bengaluru</option>
+              <option>Delhi</option>
+            </select>
+          </div>
+        </div>
+        <div class="Bf-Cusine">
+          <div class="Bf-Cusine.span">Cusine</div>
+          <br />
+          <input type="checkbox" value="North India" name="cusine" />
+          <label>North India</label><br />
+          <input type="checkbox" value="South India" name="cusine" />
+          <label>South India</label><br />
+          <input type="checkbox" value="Chinese" name="cusine" />
+          <label>Chinese</label><br />
+          <input type="checkbox" value="Fast Food" name="cusine" />
+          <label>Fast Food</label><br />
+          <input type="checkbox" value="Street Food" name="cusine" />
+          <label>Street Food</label>
+        </div>
+        <div class="Bf-Cost">
+          <div class="Bf-cost.span">Cost For Two</div>
+          <br />
+          <input type="radio" value="Less than 500" name="cost" />
+          <label>Less than 500</label>
+          <br />
+          <input type="radio" value="500 to 1000" name="cost" />
+          <label>` 500 to ` 1000</label>
+          <br />
+          <input type="radio" value="1000 to 2000" name="cost" />
+          <label>` 1000 to ` 2000</label>
+          <br />
+          <input type="radio" value="1500 to 2000" name="cost" />
+          <label>` 1500 to ` 2000</label>
+          <br />
+          <input type="radio" value="2000+" name="cost" />
+          <label>` 2000+</label>
+          <br />
+        </div>
+        <div class="bf-sort">
+          <h3>Sort</h3>
+          <input type="radio" name="sort" value="low to high" />
+          <label>Price low to high</label>
+          <br />
+          <input type="radio" name="sort" value="hight to low" />
+          <label>Price high to low</label>
+        </div>
+      </div>
+      <div class="Bf-right">
+        <div class="Bf-right-top">
+          <div class="Bf-image-top">
+            <img
+              id="Top-image"
+              src="../images/Breakfast.jpg"
+              alt="Image is not found"
+            />
+          </div>
+          <div class="Bf-Text">
+            <h2>The Big Chill Cakery</h2>
+            <div class="Bf-address">
+              <div class="Bf-address-city">Fort</div>
+              <div class="Bf-address-street">
+                Shop 1, Plot D, Samruddhi Complex, Chincholi …
+              </div>
+            </div>
+          </div>
+          <div class="Cusine">
+            <div class="cusine-top">CUSINES :</div>
+            <div class="cusine-type">Bakery</div>
+          </div>
+          <div class="Cost">
+            <div class="cusine-costfortwo">COST FOR TWO:</div>
+            <div class="cusine-cost">$700</div>
+          </div>
+          </div>
+
+          <div class="Bf-right-bottom">
+            <div class="Bf-image-top">
+              <img
+                id="Top-image"
+                src="../images/Breakfast.jpg"
+                alt="Image is not found"
+              />
+            </div>
+            <div class="Bf-Text">
+              <h2>The Bake Shop</h2>
+              <div class="Bf-address">
+                <div class="Bf-address-city">Fort</div>
+                <div class="Bf-address-street">
+                  Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                </div>
+              </div>
+            </div>
+
+            <div class="Cusine">
+              <div class="cusine-top">CUSINES :</div>
+              <div class="cusine-type">Bakery</div>
+            </div>
+            <div class="Cost">
+              <div class="cusine-costfortwo">COST FOR TWO:</div>
+              <div class="cusine-cost">$700</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

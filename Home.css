@@ -1,0 +1,195 @@
+h2 {
+  color: navy;
+}
+.nav-container {
+  height: 80px;
+  width: 100%;
+  background-color: orangered;
+}
+.logo {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+}
+#logo {
+  color: red;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  font-size: 45px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  margin-left: 55%;
+  margin-top: 10%;
+}
+/* #logo {
+  border-radius: 50%;
+  font-size: 40px;
+  margin-left: 112px;
+  margin-top: 16px;
+  display: inline-block;
+  background-color: white;
+  color: red;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+} */
+.signin {
+  width: 10%;
+  display: inline-block;
+  margin-left: 55%;
+  background-color: orangered;
+  color: white;
+  margin-top: 3%;
+  border: 1px solid white;
+  font-size: 100%;
+  word-wrap: break-word;
+}
+.create {
+  /* border: 1px solid violet; */
+  width: 25%;
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+  margin-top: 3%;
+  border: 1px solid white;
+  font-size: 100%;
+}
+.login {
+  display: inline-block;
+  width: 84%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  vertical-align: top;
+  /* display: inline-block; */
+  /* height: 50px;
+  width: 85%; */
+  /* margin-left: 180px; */
+  /* margin-left: 15%; */
+}
+.create {
+  display: inline-block;
+}
+.Heading {
+  margin-left: 113px;
+}
+.Breakfast {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin-left: 113px;
+}
+.Bf-left {
+  margin-right: 1%;
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  vertical-align: top;
+  padding: 1.5%;
+  box-shadow: 0px 3px 6px #00000029;
+  color: navy;
+}
+.Bf-filter.h3 {
+  display: inline-block;
+}
+.location {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+}
+#selectlocation {
+  margin-top: 5%;
+  padding: 5%;
+  width: 90%;
+  color: navy;
+}
+.Bf-Cusine {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+/* .Bf-Cusine.span,
+.Bf-cost.span {
+  padding-bottom: 10px;
+  display: inline-block;
+} */
+#image {
+  width: 15%;
+  border-radius: 25%;
+  padding-left: 20px;
+  display: inline-block;
+}
+.Bf-right {
+  display: inline-block;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 75%;
+  vertical-align: top;
+}
+.Bf-right-top {
+  /* border: 1px solid red; */
+  margin-left: 1%;
+  height: 50%;
+  width: 70%;
+  padding: 4%;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.Bf-right-bottom {
+  /* border: 1px solid violet; */
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  height: 50%;
+  width: 70%;
+  padding: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+#Top-image {
+  width: 100%;
+  height: 120px;
+  border-radius: 20%;
+}
+.Bf-image-top {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+}
+.Bf-Text {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 5%;
+}
+.Bf-address-street {
+  opacity: 0.5;
+}
+hr {
+  opacity: 0.5;
+}
+
+.cusine-top {
+  width: 20%;
+  display: inline-block;
+  opacity: 0.5;
+  height: 10%;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+.cusine-type {
+  display: inline-block;
+  font-size: 100%;
+}
+.cusine-costfortwo {
+  width: 20%;
+  display: inline-block;
+  opacity: 0.5;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.cusine-cost {
+  display: inline-block;
+  font-size: 15px;
+}
+.Cusine {
+  margin-top: 20px;
+}
